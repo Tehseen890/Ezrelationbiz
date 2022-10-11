@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "300696195094",
+    "project_id": "ezrelationbiz",
+    "storage_bucket": "ezrelationbiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300696195094:android:5c88f3210a7b3240d0a537",
+        "android_client_info": {
+          "package_name": "com.example.business_management"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300696195094-rf8461ecmh3vtl3g5s5t7utekb1omo9a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.business_management",
+            "certificate_hash": "dbe84d8805d45b71a17cc9ff085c7d6f29285285"
+          }
+        },
+        {
+          "client_id": "300696195094-lguvd6dkudjpiko7dti5ggc1a3rjmji1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrVIC-tCH1j_qo7zeYhha1p5fCURn6bp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300696195094-lguvd6dkudjpiko7dti5ggc1a3rjmji1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
