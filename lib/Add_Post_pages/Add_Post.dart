@@ -147,6 +147,7 @@ class _Add_PostState extends State<Add_Post> {
                                                   videoUrl = await imagepicked
                                                       .videotakenGallery();
                                                   editpost = postModel(
+                                                    id: editpost.id,
                                                     videourl: videoUrl,
                                                     imgurl: editpost.imgurl,
                                                     derscription:
@@ -167,6 +168,7 @@ class _Add_PostState extends State<Add_Post> {
                                                       .imagetakenGallery(
                                                           'Posts');
                                                   editpost = postModel(
+                                                    id: editpost.id,
                                                     videourl: editpost.videourl,
                                                     imgurl: imgurl,
                                                     derscription:

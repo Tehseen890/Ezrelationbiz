@@ -1,5 +1,5 @@
 import 'package:business_management/HomePages/Home/Home.dart';
-import 'package:business_management/Models/BusinessModel.dart';
+
 import 'package:business_management/Profile/profile.dart';
 import 'package:business_management/RegistrationScreens/afteremailverification.dart';
 
@@ -8,7 +8,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 import 'package:pinput/pinput.dart';
-import 'package:provider/provider.dart';
 
 class OTP_verification extends StatefulWidget {
   String text;
@@ -29,7 +28,7 @@ class _OTP_verificationState extends State<OTP_verification> {
   @override
   void initState() {
     verifyphonenumber();
-    // TODO: implement initState
+
     super.initState();
   }
 
